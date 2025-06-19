@@ -4,7 +4,7 @@ This repository contains a simple graphical calculator built using **Python** an
 
 ## 📸 Preview
 
-![calculator_preview](https://user-images.githubusercontent.com/your-username/your-image-path.png)  
+![calculator_preview](https://github.com/genesisvaca/Calculator/commit/861dc88fb73170c511d0b76678138ce2d349ebc2)  
 
 
 ## 🚀 Features
@@ -40,14 +40,14 @@ The calculator window will appear. Click the buttons to input values and calcula
 ## 🧠 How It Works
 The GUI consists of:
 
-Text widget to display current input/result.
+`Text` widget to display current input/result.
 
-Button widgets to input digits, operations, clear or evaluate the expression.
+`Button` widgets to input digits, operations, clear or evaluate the expression.
 
 Functions to handle appending values, clearing, and evaluating the calculation using eval().
 
 ## 📌 Notes
-The eval() function is used to evaluate the string expression. It works well in this controlled environment but should be avoided in real-world apps that process user input for security reasons.
+The `eval()` function is used to evaluate the string expression. It works well in this controlled environment but should be avoided in real-world apps that process user input for security reasons.
 
 Designed for educational/demo purposes.
 
