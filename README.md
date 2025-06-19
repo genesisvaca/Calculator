@@ -4,7 +4,7 @@ This repository contains a simple graphical calculator built using **Python** an
 
 ## 📸 Preview
 
-![calculator_preview](https://github.com/genesisvaca/Calculator/commit/861dc88fb73170c511d0b76678138ce2d349ebc2)  
+[calculator_preview](https://github.com/genesisvaca/Calculator/commit/861dc88fb73170c511d0b76678138ce2d349ebc2)  
 
 
 ## 🚀 Features
