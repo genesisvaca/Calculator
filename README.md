@@ -1,58 +1,75 @@
-# 🧮 Simple Calculator in Python (Tkinter)
+# 🧮 Simple Calculator – Python (Tkinter)
 
-This repository contains a simple graphical calculator built using **Python** and the **Tkinter** library. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division through a clean and intuitive GUI.
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge"></a>
+  <a href="https://docs.python.org/3/library/tkinter.html"><img src="https://img.shields.io/badge/Tkinter-GUI%20Library-ffb86c?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter Badge"></a>
+  <a href="https://github.com/genesisvaca/Calculator"><img src="https://img.shields.io/badge/Status-Completed-6aa84f?style=for-the-badge" alt="Status Badge"></a>
+</p>
+
+💻 *A minimal, classic calculator built entirely with **Python Tkinter** — my **first GUI project ever**!* 💻
 
 ## 📸 Preview
 
-[calculator_preview](https://github.com/genesisvaca/Calculator/commit/861dc88fb73170c511d0b76678138ce2d349ebc2)  
-
+<p align="center">
+  <img src="CalculatorTk.JPG" alt="Calculator GUI Preview" width="360">
+  <br>
+  <em>A simple yet functional Tkinter calculator interface.</em>
+</p>
 
 ## 🚀 Features
 
-- Basic arithmetic operations: `+`, `-`, `×`, `÷`
-- Real-time visual feedback of input and result
-- Input parentheses for advanced expressions
-- Error handling for invalid expressions
-- Easy-to-use graphical interface
+- ➕ Basic arithmetic operations: `+`, `-`, `×`, `÷`
+- 🧮 Parentheses support for compound expressions
+- ⚙️ Real-time display of inputs and results
+- 🚫 Error handling for invalid inputs
+- 💡 Clean, intuitive interface for beginners
+
 
 ## 🛠️ Tech Stack
 
-- Python 3
-- Tkinter (Standard GUI library in Python)
+| Technology | Description |
+|-------------|-------------|
+| **Python 3** | Core programming language |
+| **Tkinter** | Built-in Python library for GUI applications |
+
 
 ## 📦 Installation
 
-Make sure you have Python installed. You can download it here: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+Make sure you have Python installed on your system.  
+[🔗 Download Python here](https://www.python.org/downloads/)
 
-Clone this repository:
-
-bash
-`git clone https://github.com/genesisvaca/Calculator.git
-cd Calculator`
+```bash
+git clone https://github.com/genesisvaca/Calculator.git
+cd Calculator
+```
 
 ## ▶️ How to Run
-Run the following command:
 
-bash
-`python3 main.py`
-The calculator window will appear. Click the buttons to input values and calculate results.
+Run the following command to start the calculator:
+```
+python main.py
+```
+
+A window will open — click the buttons to input numbers and operations!
 
 ## 🧠 How It Works
-The GUI consists of:
 
-`Text` widget to display current input/result.
+- A `Text` widget displays both input and output.
 
-`Button` widgets to input digits, operations, clear or evaluate the expression.
+- Each `Button` widget appends symbols or numbers to the expression.
 
-Functions to handle appending values, clearing, and evaluating the calculation using eval().
+- The result is computed using Python’s built-in `eval()` for simplicity.
 
-## 📌 Notes
-The `eval()` function is used to evaluate the string expression. It works well in this controlled environment but should be avoided in real-world apps that process user input for security reasons.
+- Basic validation prevents crashes on invalid entries.
 
-Designed for educational/demo purposes.
+## ⚠️ Note
 
-## 👩‍💻 About the Author
-Created by Genesis Vaca
-Aspiring Data Analyst & Frontend Developer
+The use of `eval()` is safe in this educational context, but not recommended for production applications where user input may be unsafe.
 
-⭐ If you like this project, feel free to star the repo or fork it!
+## 🌟 Author
+
+**👩‍💻 Génesis Vaca Palma**  
+📍  Data & Analytics Student — Madrid, Spain  
+📧 [genesisvacapalma@gmail.com](mailto:genesisvacapalma@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/genesisvaca/)  
+
